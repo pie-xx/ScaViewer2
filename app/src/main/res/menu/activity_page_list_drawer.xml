@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/nav_menu">
+        <item
+            android:id="@+id/nav_folder"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Folder" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ScrollingActivity" />
+        <item
+            android:id="@+id/nav_focussed"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Focussed" />
+        <item
+            android:id="@+id/nav_bookmarked"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bookmark" />
+        <item
+            android:id="@+id/nav_picview"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="DB list" />
+    </group>
+
+</menu>

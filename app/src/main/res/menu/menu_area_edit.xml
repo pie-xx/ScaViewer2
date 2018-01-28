@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.picpie.scaviewer.PicViewActivity"
+    >
+     <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_menu_manage"
+        android:orderInCategory="100"
+        android:title="menu"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_editarea"
+        android:icon="@drawable/ic_menu_gallery"
+        android:orderInCategory="101"
+        android:title="view"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_area"
+        android:icon="@drawable/ic_add_circle_white_24dp"
+        android:orderInCategory="104"
+        app:showAsAction="ifRoom"
+        android:title="add area"/>
+    <item
+        android:id="@+id/action_rm_area"
+        android:icon="@drawable/ic_remove_circle_outline_white_24dp"
+        android:orderInCategory="105"
+        app:showAsAction="ifRoom"
+        android:title="del area"/>
+
+    <item
+        android:id="@+id/action_undoarea"
+        android:icon="@drawable/ic_menu_gallery"
+        android:orderInCategory="106"
+        android:title="undo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_fit"
+        android:icon="@drawable/ic_menu_gallery"
+        android:orderInCategory="107"
+        android:title="fit to area"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
